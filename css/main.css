@@ -1,22 +1,22 @@
-.navbar{
+.navbar {
     background:#F97300;
    }
-.nav-link , .navbar-brand{
+.nav-link , .navbar-brand {
     color: #f4f4f4;
     cursor: pointer;
 }
-.nav-link{
+.nav-link {
     margin-right: 1em !important;
 }
-.nav-link:hover{
+.nav-link:hover {
     background: #f4f4f4;
     color: #f97300;
 }
 /* sets nav menu on right */
-.navbar-collapse{
+.navbar-collapse {
     justify-content: flex-end;
 }
-.navbar-toggler{
+.navbar-toggler {
     background:#fff !important;
 }
 
@@ -39,23 +39,54 @@
     top: 0;
     background: rgba(244, 244, 244, 0.79);
 }
-.description{
+.description {
     position: absolute;
     top: 30%;
     margin: auto;
     padding: 2em;
 }
-.description h1{
+.description h1 {
     color:#F97300 ;
 }
-.description p{
+.description p {
     color:#666;
     font-size: 20px;
     width: 50%;
     line-height: 1.5;
 }
-.description button{
+.description button {
     border:1px  solid #F97300;
     background:#F97300;
     color:#fff;
+}
+.about {
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+}
+.about h1 {
+    color:#F97300;
+    margin: 2em;
+}
+.about img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+.about span {
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+}
+.about .desc {
+    padding: 2em;
+    border-left:4px solid #10828C;
+}
+.about .desc h3 {
+    color: #10828C;
+}
+.about .desc p {
+    line-height:2;
+    color:#888;
 }
