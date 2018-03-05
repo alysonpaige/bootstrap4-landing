@@ -1,3 +1,4 @@
+/* nav style*/
 .navbar {
     background:#F97300;
    }
@@ -12,7 +13,7 @@
     background: #f4f4f4;
     color: #f97300;
 }
-/* sets nav menu on right */
+/* sets nav menu on right: */
 .navbar-collapse {
     justify-content: flex-end;
 }
@@ -59,6 +60,7 @@
     background:#F97300;
     color:#fff;
 }
+/* about style */
 .about {
     margin: 4em 0;
     padding: 1em;
@@ -89,4 +91,19 @@
 .about .desc p {
     line-height:2;
     color:#888;
+}
+/* portfolio style */
+/*Portfolio*/
+.portfolio {
+    margin: 4em 0;
+    position: relative; 
+}
+.portfolio h1 {
+    color:#F97300;
+    margin: 2em; 
+}
+.portfolio img {
+    height: 15rem;
+    width: 100%;
+    margin: 1em;
 }
